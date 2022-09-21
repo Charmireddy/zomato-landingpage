@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+html{
+    width: 100%;
+    height: 100%;
+
+}
+body{
+
+    margin:0;
+    padding:0;
+    text-decoration: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 300%;
+}
+
+header{
+    width: 100%;
+    height:60vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+.header-image{
+    position: absolute;
+    top:-20vh;
+   z-index:-1;
+   width:auto;
+}
+.nav{
+    display:flex;
+    margin:1vh 10vw;
+    list-style: none;
+    justify-content: space-between;
+    color:white;
+    font-size: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar li{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 30px;
+    list-style: none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+
+.head h3{
+    font-size: 2.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+.logo{
+    width:20vw;
+}
+.search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+}
+.search input{
+    outline:none;
+    border:none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search p{
+    color: gray;
+    border-right: 1px gray;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.search i{
+    color: grey;
+    padding-left: 10px;
+}
+.sec-1
+{
+    
+    display: flex;
+    justify-content:first baseline;
+    margin-left: 20vh;
+   margin-bottom: 2em;
+   margin-top: 2em;
+   
+
+    
+}
+.box{
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+    z-index: -1;
+}
+.white{
+    position: absolute;
+    bottom: 3px;
+    background-color:whitesmoke;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+}
+.white span{
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(56,56,56);
+    letter-spacing: 0.7px;
+}
+.white p{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: black;
+    letter-spacing: 0.7px;
+
+}
+.sec-2
+{
+    
+    display: flex;
+    justify-content:first baseline;
+    margin-left: 20vh;
+   margin-bottom: 2em;
+   margin-top: 2em;
+}
+.head span{
+   font-size: 2em;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: lighter;
+   color: black;
+}
+.sec-3
+{
+    
+    display: flex;
+    justify-content:first baseline;
+    margin-left: 20vh;
+   margin-bottom: 6em;
+   margin-top: 3em;
+}
+.box-3{
+    position: absolute;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    width: 30%;
+    height: 15%;
+    
+}
+.white-3 span{
+    display: flex;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(56,56,56);
+    letter-spacing: 0.7px;
+}
+.white-3 p{
+    display: flex;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: black;
+    letter-spacing: 0.7px;
+}
+.sec-4
+{
+    height:620px;
+    background-color: rgb(255,251,247);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.sec-4container{
+    width: 1048px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.image{
+    width:40%;
+}
+.img1{
+    display:flex;
+   margin: auto;
+    list-style: none;
+    justify-content: space-between;
+    width: 400px;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 3vh;
+    margin-top: 7vh;
+    
+}
+.logo h1{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.data{
+   
+    width: 30vw;
+    border-radius: 10px;
+    border-color: rgb(85,85,85);
+      padding: auto;
+    
+    
+    
+}
+
+
+
+.data input{
+    
+  background-color: white;
+    border:none;
+    width: 70%;
+    padding-left: 15px;
+    font-size: 1.5em;
+    padding-right: 15px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    outline: auto   rgb(211,211,211);
+    
+    
+  
+}
+
+
+
+.para{
+    margin-top: 3vh;
+    
+}
+.sec-5
+{
+    
+    width: 100vm;
+    margin-left: 20vh;
+   margin-top: 3em;
+}
+.sec-5 p{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.step2{
+    background-color:whitesmoke;
+    border:none;
+    width: 70%;
+    padding-left: 15px;
+    font-size: 1em;
+    padding-right: 15px;
+    
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    
+    
+}
+.step2 select{
+    margin-left: 124vh;
+    outline: none;
+    border:none;
+  
+}
+
+.step3{
+    background-color: whitesmoke;
+    width: 70%;
+    padding-left: 15px;
+    font-size: 1em;
+    padding-right: 15px;
+    margin-top: 2em;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+   
+    
+
+}
+.step3 select{
+    margin-left: 124vh;
+    outline: none;
+    border:none;
+  
+}
+.step4
+{
+background-color: whitesmoke;
+width: 70%;
+padding-left: 15px;
+font-size: 1em;
+padding-right: 15px;
+margin-top: 2em;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+padding-bottom: 1.5vh;
+   
+
+}
+.step4 select{
+    margin-left: 124vh;
+    outline: none;
+    border:none;
+  
+}
+.sec-6{
+    
+    
+   width: auto;
+   margin-top: 2em;
+   font-size: 2em;
+   margin-top: 2em;
+   height:620px;
+   background-color: rgb(255,251,247);
+   
+   margin-right: auto;
+}
+.sec-6logo{
+    
+    font-size: 1em;
+    margin-top: 2em;
+    margin-left: 20vh;
+    font-family: fantasy;
+
+}
+
+    
+
+.tbl th{
+    margin-bottom: 20vh;
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-self: initial;
+
+    
+}
+.tbl td{
+    font-size:1em;
+    font-family: monospace;
+    margin-left: 20vh;
+    text-align:center;
+    margin-top: 1em;
+    margin-left: 20vh;
+}
+.td img{
+    width:10px;
+    min-height: fit-content;
+}
